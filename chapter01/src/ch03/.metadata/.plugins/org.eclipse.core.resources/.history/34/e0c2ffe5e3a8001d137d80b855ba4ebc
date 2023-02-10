@@ -1,0 +1,18 @@
+package Ex10;
+
+public class ComputerTest {
+
+	public static void main(String[] args) {
+
+		Computer desk = new DeskTop();
+		Computer my = new MyNoteBook();
+		
+		desk.turnOn();
+		desk.turnOff();
+		my.typing();
+		my.display();
+		desk.typing();
+		
+	}	// end of main
+
+}	// end of class

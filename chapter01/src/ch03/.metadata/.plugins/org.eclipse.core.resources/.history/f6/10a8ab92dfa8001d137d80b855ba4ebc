@@ -1,0 +1,12 @@
+package ch13;
+
+public class MainTest1 {
+
+	public static void main(String[] args) {
+
+		// 기본적으로 추상 클래스는 new 할 수 없다.
+		// Animal animal = new Animal();	//오류 : 메모리에 올릴 수 없다.
+
+	}	//end of main
+
+}	// end of class

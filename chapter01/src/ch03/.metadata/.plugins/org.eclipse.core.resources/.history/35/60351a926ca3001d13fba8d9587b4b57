@@ -1,0 +1,20 @@
+package ch05;
+
+public class MainTest2 {
+	// 코드의 시작점 (메인함수)
+	public static void main(String[] args) {
+		
+		// new를 쓰게되면 객체생성한거고
+		Warrior warrior1 = new Warrior();
+		// 객체에 접근할 때는 . 연산자를 쓴다.
+		// 멤버 변수의 값을 초기화(할당)하고 있다.
+		warrior1.name = "티모";
+		warrior1.power = 100;
+		warrior1.color = "갈색";
+		warrior1.height = 50;
+
+		System.out.println(warrior1.name);
+		
+	} // end of main
+
+} // end of class

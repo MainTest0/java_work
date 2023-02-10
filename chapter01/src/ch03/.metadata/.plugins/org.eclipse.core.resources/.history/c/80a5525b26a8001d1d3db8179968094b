@@ -1,0 +1,13 @@
+package ch11;
+
+public class Hero {
+
+	String name;
+	int hp;
+
+	public hero(String name, int hp) {
+		this.name = name ;
+		this.hp = hp;
+	}
+
+}

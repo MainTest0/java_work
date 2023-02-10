@@ -1,0 +1,7 @@
+package ch10;
+
+// 전사
+public class Warrior extends Hero{
+	
+	super(name,hp);
+}

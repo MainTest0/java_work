@@ -1,0 +1,16 @@
+package ch06;
+
+public class Bank {
+	
+	int balance;
+	String name;
+	
+	// 입금하다
+	public void deposit(int money) {		//얼마 입급할지 외부에서 값을 주입
+		balance += money;
+	}
+	// 출금하다
+	public void withdraw(int money) {
+		balance-=money;
+	}
+}	// end of class

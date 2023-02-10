@@ -1,0 +1,26 @@
+package ch10;
+
+public class Cal {
+	
+	public int sum(int n1, int n2) {
+		return n1+n2;
+	}
+	
+	public int multiply(int n1, int n2) {
+		return n1*n2;
+	}
+	//코드 테스트
+	public static void main(String[] args) {
+		Cal2 cal2 = new Cal2();
+		int result1 = cal2.sum(100, 5);
+		System.out.println(result1);
+	}
+}
+
+class Cal2 extends Cal{
+	
+	public int minus(int n1, int n2) {
+		return n1-n2;
+	}
+	
+}

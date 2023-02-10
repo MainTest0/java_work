@@ -1,0 +1,16 @@
+package ch05;
+
+public class Bus {
+	
+	int busNumber;
+	int passengerCount;
+	int money;
+	
+	public void take(int money) {
+		this.money = money;
+		this.passengerCount++;
+	}
+	
+	
+
+}

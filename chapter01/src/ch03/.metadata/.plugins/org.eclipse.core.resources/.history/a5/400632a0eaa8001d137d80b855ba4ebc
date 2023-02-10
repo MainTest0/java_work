@@ -1,0 +1,17 @@
+package ch14;
+
+public abstract class Car {
+
+	public abstract void drive();
+	public abstract void stop();
+	public void startCar() {
+		
+	}
+	public void turnoff() {
+		
+	}
+	public void run() {
+		
+	}
+	
+}

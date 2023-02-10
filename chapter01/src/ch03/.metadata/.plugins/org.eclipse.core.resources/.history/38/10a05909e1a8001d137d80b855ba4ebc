@@ -1,0 +1,11 @@
+package ch13;
+
+public class Person  extends Human{
+	
+	@Override
+	public void hunt() {
+		
+		super.hunt();		//	super. 부모클래스 안의 hunt 메서드를 호출
+	}
+
+}	//end of class

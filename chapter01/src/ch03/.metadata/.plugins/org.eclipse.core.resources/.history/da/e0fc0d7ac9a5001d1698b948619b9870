@@ -1,0 +1,19 @@
+package ch02;
+
+public class UserInfoMainTest {
+
+	public static void main(String[] args) {
+
+		UserInfo userInfo = new UserInfo();
+		
+		userInfo.userId="ㄴㄹ이";
+		userInfo.userName="ㄴㄹ이";
+		userInfo.phone="ㄴㄹ이";
+
+		UserInfo userInfo1 = new UserInfo("sfd", "sdf", "fsd"); 
+		UserInfo userInfo2 = new UserInfo("sfd", "sdf");
+		UserInfo userInfo3 = new UserInfo("sfd");
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package ch06;
+
+public class Hero {
+	private String name;
+	private int hp;
+	private int power;
+	private double defense;
+	private boolean die; // boolean은 get, set을 만들 때 -> is라고 쓰는게 일반적이다 ex) isDie
+
+	// get메서드 직접 만들어 보세요(5개)
+
+	// set메서드 직접 만들어 보세요(5개)
+
+	// 방어적 코드도 추가해보세요
+
+}

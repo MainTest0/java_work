@@ -1,0 +1,29 @@
+package ch05;
+
+public class MainTest02 {
+
+	public static void main(String[] args) {
+
+		//객체 생성
+		Student student = new Student("홍길동", 10_000);
+		Subway subway = new Subway(2);
+		Bus bus = new Bus(1004);
+		
+		//1단계 - 사용해보기
+		
+		student.takeBus(bus);
+		bus.showInfo();
+		student.showInfo();
+		
+		student.takeSubway(subway);
+		subway.showInfo();
+		student.showInfo();
+		
+		
+		//2단계 - 실행 흐름 만들어보기
+		
+		// 스캐너 받아서 1호선 타시겠습니까 2호선 타시겠습니까
+
+	}
+
+}

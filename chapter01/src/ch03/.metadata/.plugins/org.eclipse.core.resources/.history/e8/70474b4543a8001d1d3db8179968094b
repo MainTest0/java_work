@@ -1,0 +1,9 @@
+package ch12;
+
+public class FriutMainTest {
+	public static void main(String[] args) {
+		
+		
+		
+	}// end of main
+}// end of class

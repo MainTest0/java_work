@@ -1,0 +1,11 @@
+package ch07;
+
+public class Bus {
+	
+	int busNum;
+	
+	public Bus(int busNum) {
+		this.busNum = busNum;
+	}
+
+}

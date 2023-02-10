@@ -1,0 +1,40 @@
+package ch04;
+
+// 전사 클래스 설계하기
+
+// 마나가 없어요 마나채우기
+// 공격스킬
+public class Warrior {
+
+	int HP;
+	int MP;
+	int power;
+	
+	//상태
+	// 레벨, 파워, 체력, 마나
+	public Warrior() {
+		
+	}
+	public void HP() {
+		
+	}
+	public void MP() {
+		
+	}
+	public void power() {
+		
+	}
+	
+	//기능
+	// 기본공격(마나x), q스킬(마나), r스킬(궁)
+	public void basicAttack() {
+		
+	}
+	public void skillQ() {
+		
+	}
+	public void skillR() {
+		
+	}
+	
+}//end of class

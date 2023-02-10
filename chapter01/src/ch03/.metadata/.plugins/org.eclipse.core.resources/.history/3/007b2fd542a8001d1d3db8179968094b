@@ -1,0 +1,13 @@
+package ch12;
+
+public class Peach {
+
+	String name;
+	int price;
+	
+	public Peach() {
+		name = "복숭아";
+		price = 8000;
+	}
+	
+}

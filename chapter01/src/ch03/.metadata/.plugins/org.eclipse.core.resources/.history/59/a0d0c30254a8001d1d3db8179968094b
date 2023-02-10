@@ -1,0 +1,55 @@
+package Ex10;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class GiveAway {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Random rand = new Random();
+		
+		PickCar car = new PickCar();
+		PickBear bear= new PickBear();
+		PickMoney money = new PickMoney();
+
+		int giveAway[] = new int[4];
+		int userNum;
+		boolean temp = true;
+		
+		giveAway[0] = car;
+
+		while (temp) {
+			int randNum = rand.nextInt(3) + 1;
+			System.out.println("숫자 1~3을 입력하시면 뽑기가 진행됩니다. 0을 누르면 종료가 됩니다.");
+			userNum = sc.nextInt();
+
+			if (userNum == randNum) {
+				System.out.println(giveAway[randNum]);
+
+			} else if (userNum != randNum && userNum != 0) {
+				System.out.println("꽝 입니다.");
+			}
+			if (userNum == 0) {
+				System.out.println("종료");
+				temp = false;
+			}
+		} // end of while
+
+	}// end of main
+}// end of class
+
+class PickCar extends GiveAway {
+	public void Pick() {
+		System.out.println("장난감 자동차를 뽑으셨습니다.");
+	}
+}
+class PickBear extends GiveAway {
+	public void Pick() {
+		System.out.println("곰인형을 뽑으셨습니다.");
+	}
+}
+class PickMoney extends GiveAway {
+	public void Pick() {
+		System.out.println("축하합니다! 돈을 뽑으셨습니다.");
+	}
+}

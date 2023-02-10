@@ -1,0 +1,31 @@
+package Ex13;
+
+public class FormatOnType {
+
+	public static void main(String[] args) {
+
+		// 자동정렬하기
+		int[] myNumbers = new int[10];
+		myNumbers[0] = 10;
+		myNumbers[1] = 4;
+		myNumbers[2] = 100;
+		myNumbers[3] = 23;
+		myNumbers[4] = 51;
+		myNumbers[5] = 1;
+		myNumbers[6] = 6;
+		myNumbers[7] = 88;
+		myNumbers[8] = 42;
+		myNumbers[9] = 31;
+
+		for (int i = 0; i < myNumbers.length; i++) {
+			if (myNumbers[i] != 0) {
+				if (myNumbers[i] < myNumbers[i + 1]) {
+					myNumbers[i+1] = myNumbers[i-1];
+				}
+			}
+			System.out.println(myNumbers[i]);
+		}
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package Strings;
+
+public class StringTest1 {
+	public static void main(String[] args) {
+		// 문자열이라는 데이터를 사용할 때
+		String str1 = "반가워";
+		String str2 = new String("반가워");
+		
+	}
+}

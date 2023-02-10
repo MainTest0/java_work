@@ -1,0 +1,15 @@
+package Starcraft.copy;
+
+/*
+ * 작성자 이치승
+ */
+
+public class MainTest2 {
+
+	public static void main(String[] args) {
+
+
+		
+	} // end of main
+
+} // end of class

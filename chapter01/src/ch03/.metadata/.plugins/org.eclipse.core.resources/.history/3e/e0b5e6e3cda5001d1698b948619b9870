@@ -1,0 +1,19 @@
+package ch02;
+
+public class HumanMainTest2 {
+
+	public static void main(String[] args) {
+
+		Human human = new Human();
+		// 스캐너를 활용해서 값을 할당
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+		
+		// showInfo() 메서드 호출해서 값을 확인해주세요
+		
+	}// end of main
+
+}// end of class

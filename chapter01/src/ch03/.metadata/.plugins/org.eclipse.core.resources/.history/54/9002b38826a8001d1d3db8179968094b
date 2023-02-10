@@ -1,0 +1,9 @@
+package ch11;
+
+public class Warrior extends Hero{
+
+	super("전사", hp){
+		
+	}
+	
+}

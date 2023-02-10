@@ -1,0 +1,18 @@
+package Ex13;
+
+public class RandNum {
+
+	RandNum rand = new RandNum();
+	
+	int ranNum;
+	
+	public RandNum() {
+		this.ranNum = ranNum;
+	}
+	
+	public int rand() {
+		ranNum = rand.nextInt(17);
+		return ranNum;
+	}
+	
+}

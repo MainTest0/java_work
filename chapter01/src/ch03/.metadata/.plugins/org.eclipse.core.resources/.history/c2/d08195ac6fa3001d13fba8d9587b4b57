@@ -1,0 +1,12 @@
+package ch05;
+
+// 클래스를 사용하는 쪽 코드 작성
+public class UserMainTest {
+	//메인함수
+	public static void main(String[] args) {
+		
+		
+
+	}// end of main
+
+}// end of class

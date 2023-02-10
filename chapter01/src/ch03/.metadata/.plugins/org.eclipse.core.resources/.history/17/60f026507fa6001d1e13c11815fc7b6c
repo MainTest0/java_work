@@ -1,0 +1,23 @@
+package ch05;
+
+public class Student {
+	
+	String name;
+	int money;
+	
+	// 학생이 버스를 탄다.
+	public void takeBus() {
+		
+	}
+	// 학생이 지하철을 탄다.
+	public void takeSubway() {
+		
+	}
+	//상태창
+	public void showInfo() {
+		System.out.println("학생의 이름 : "+this.name);
+		System.out.println("학생의 소지금 : " +this.money);
+		System.out.println("=============================");
+		
+	}
+}

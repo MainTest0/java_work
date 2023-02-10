@@ -1,0 +1,11 @@
+package ch11;
+
+public class Warrior extends Hero {
+
+	public Warrior() {
+		// 부모클래스에 사용자 정의 생성자가 있다면
+		// 부모클래스르 반드시 호출 해야한다.
+		
+		super("전사", 100);		//super() : 부모클래스를 호출하는 메서드이다.
+	}
+}

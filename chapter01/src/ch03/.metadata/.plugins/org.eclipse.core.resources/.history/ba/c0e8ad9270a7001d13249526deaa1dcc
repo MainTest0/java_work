@@ -1,0 +1,27 @@
+package ch09;
+
+public class BookMainTest1 {
+
+	public static void main(String[] args) {
+
+		// 연관된 하나의 데이터를 통으로 관리하고 싶다면 배열, 자료구조를 사용하면 된다.
+		Book books[] = new Book[5];		//배열 선언 (메모리 공간 만들어 주기)
+		
+		books[0] = new Book("플러터 UI실전", "김근호");
+		books[1] = new Book("무궁화 꽃이 피었습니다.", "김진명");
+		books[2] = new Book("흐르는 강물처럼.", "파울로코엘료");
+		books[3] = new Book("리딩으로 리드하라.", "이지성");
+		books[4] = new Book("사피엔스.", "유발 하라리");
+		
+		System.out.println(books[0].getTitle());
+		System.out.println(books[4].getAutor());
+		
+		for(int i =0; i<5; i++) {
+			System.out.println(books[i].getTitle()+books[i].getAutor());
+		}
+		
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package ch05;
+
+public class UserMainTest {
+	//메인함수
+	public static void main(String[] args) {
+		
+		
+
+	}// end of main
+
+}// end of class

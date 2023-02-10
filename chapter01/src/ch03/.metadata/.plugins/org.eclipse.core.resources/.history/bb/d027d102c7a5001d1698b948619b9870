@@ -1,0 +1,16 @@
+package ch02;
+
+public class Student2 {
+
+
+	String name;
+	int number;
+	int grade;
+
+	public Student2(String name, int grade) {
+		name = name;
+		grade = grade;
+	}
+
+	
+}

@@ -1,0 +1,22 @@
+package ch03;
+
+public class MainTest1 {
+
+	public static void main(String[] args) {
+
+		// 1,  3, 홍길동
+		// 2, 5, 이순신
+		
+		Student studentHong = new Student(1,3,"홍길동");
+		Student studentLee = new Student(2,5,"이순신");
+		
+		// 변수로 접근해서 데이터 추가
+		studentHong.korea.subjectName = "국어";
+		
+		studentHong.showInfo();
+		System.out.println(studentHong.korea);
+		
+
+	}
+
+}

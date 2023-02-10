@@ -1,0 +1,17 @@
+package ch04;
+
+public class ExFor {
+
+	public static void main(String[] args) {
+
+		Warrior w;
+		int i = 0;
+
+		
+
+		while (i < 5) {
+			w = new Warrior();
+		}
+
+	}
+}

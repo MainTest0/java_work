@@ -1,0 +1,9 @@
+package Starcraft3;
+
+public class Unit {
+	
+	protected String name;
+	protected int power;
+	protected int hp;
+
+}

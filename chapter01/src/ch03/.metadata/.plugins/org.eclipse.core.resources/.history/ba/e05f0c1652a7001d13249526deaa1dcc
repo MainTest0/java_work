@@ -1,0 +1,15 @@
+package ch08;
+
+public class MainTest2 {
+	
+	public static void main(String[] args) {
+
+		// 우리가 배운 지식은 클래스 안에 멤버 변수를 사용하려면
+		// 반드시 먼저 메모리에 올려야 한다.
+		
+		//수행 요청 - 클래스 이름.
+		System.out.println(NumberPrinter.);
+		
+	}// end of main
+
+}// end of class

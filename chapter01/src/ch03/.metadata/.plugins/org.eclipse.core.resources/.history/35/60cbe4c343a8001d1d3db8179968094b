@@ -1,0 +1,16 @@
+package ch12;
+
+public class FriutMainTest {
+	public static void main(String[] args) {
+		// 다양한 형태로 클래스(타입) 바라 볼 수 있다.
+		Friut fruit1 = new Banana();		// 업 캐스팅
+		// 부모타입으로 선언되었지만 자식상태로 유한 상태
+		// 컴파일 시점에는 컴파일러가 앞에 선언된 데이터 타입만 확인한다.
+		Friut fruit2 = new Peach();
+		
+		// 다운 캐스팅 개념을 알자!!
+		
+		String bananaOrigin = (Banana)fruit1.origin;
+		
+	}// end of main
+}// end of class

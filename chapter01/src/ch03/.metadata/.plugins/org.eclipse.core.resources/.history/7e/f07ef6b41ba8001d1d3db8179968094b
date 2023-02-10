@@ -1,0 +1,9 @@
+package ch10;
+
+public class A {
+	String name;
+	int height;
+	int weight;
+	int age;
+	
+}

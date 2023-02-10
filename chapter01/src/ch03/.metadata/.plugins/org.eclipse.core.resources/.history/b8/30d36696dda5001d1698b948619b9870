@@ -1,0 +1,15 @@
+package ch03;
+
+public class MainTest1 {
+
+	public static void main(String[] args) {
+
+		// 1,  3, 홍길동
+		// 2, 5, 이순신
+		
+		Student studentHong = new Student(1,3,"홍길동");
+		Student studentLee = new Student(2,5,"이순신");
+
+	}
+
+}

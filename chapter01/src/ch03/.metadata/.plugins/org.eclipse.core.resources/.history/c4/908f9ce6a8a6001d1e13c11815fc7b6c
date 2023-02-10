@@ -1,0 +1,39 @@
+package Starcraft;
+
+public class Marine {
+	private String name;
+	private int hp;
+	private int power;
+	
+	public Marine(String name) {
+		this.name = name;
+		this.hp = 70;
+		this.power = 4;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	//getter 메소드 만들기
+	public int getHp() {
+		return this.hp;
+	}
+	
+	// 마린이 질럿을 공격합니다.
+	public void attackZealot(Zealot zealot) {
+		System.out.println("마린이 질럿을 공격합니다.");
+		
+	}
+	
+	// 마린이 저글링을 공격합니다
+	public void attackZergling(Zergling zergling) {
+		System.out.println("마린이 저글링을 공격합니다.");
+	}
+
+	// 자기 자신이 공격을 당합니다.
+	public void beAttacked(int power) {
+		System.out.println(this.name + "이 공격을 당합니다.");
+		this.hp -= power;
+	}
+}

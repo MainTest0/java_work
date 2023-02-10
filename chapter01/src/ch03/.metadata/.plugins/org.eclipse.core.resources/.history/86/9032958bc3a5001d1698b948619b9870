@@ -1,0 +1,16 @@
+package ch02;
+
+public class MainTest1 {
+
+	// 메인함수
+	public static void main(String[] args) {
+
+		Student studentKim = new Student();
+		studentKim.grade = 1;
+		studentKim.name = "홍길동";
+		studentKim.number = 1234;
+		
+		
+	}// end of main
+
+}// end of class

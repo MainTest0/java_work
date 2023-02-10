@@ -1,0 +1,22 @@
+package ch06;
+
+import java.util.Scanner;
+
+public class ExTest {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	static void humanName(String name) {
+		
+		System.out.println(name);
+		
+		
+	}
+
+	public static void main(String[] args) {
+
+		humanName("d");
+
+	}
+
+}

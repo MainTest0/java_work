@@ -1,0 +1,22 @@
+package Starcraft;
+
+public class GateWay {
+
+	private String name;
+
+	public GateWay() {
+		this.name = "게이트웨이";
+	}
+	// 질럿 생산 하기
+
+	public Zealot createZealot(int count) {
+		System.out.println("질럿을 생산 합니다.");
+
+		for (int i = 0; i <= count; i++)
+
+			return new Zealot("질럿1");
+	}
+
+	// 드라군 생산 하기
+
+}

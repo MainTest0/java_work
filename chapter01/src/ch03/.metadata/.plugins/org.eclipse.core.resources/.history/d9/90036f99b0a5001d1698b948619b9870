@@ -1,0 +1,20 @@
+package ch06;
+
+import java.util.Scanner;
+
+
+public class ExTest {
+	
+
+	
+	public static void main(String[] args) {
+
+		ExTestClass a = new ExTestClass();
+		
+		a.name = "";
+		
+		System.out.println(a.name);
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package Starcraft;
+
+public class GateWayMainTest {
+
+	public static void main(String[] args) {
+
+		GateWay gateway1 = new GateWay();
+		Zealot zealot1 = gateway1.createZealot();
+		System.out.println(zealot1.getName());
+		System.out.println(zealot1.getHp());
+		System.out.println(zealot1.getPower());
+
+	}
+
+}

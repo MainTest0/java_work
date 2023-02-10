@@ -1,0 +1,11 @@
+package ch04;
+
+// 법사 클래스 설계하기
+public class Wizzard {
+	
+	//상태
+	
+	
+	//기능
+
+}// end of class

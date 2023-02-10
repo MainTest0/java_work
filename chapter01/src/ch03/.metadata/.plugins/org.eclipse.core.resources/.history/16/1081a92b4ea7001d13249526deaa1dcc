@@ -1,0 +1,12 @@
+package ch07;
+
+public class TakeTransMainTest {
+
+	public static void main(String[] args) {
+
+		Student std1 = new Student("James", 5000);
+		Student std2 = new Student("Tomas", 10_000);
+
+	}
+
+}

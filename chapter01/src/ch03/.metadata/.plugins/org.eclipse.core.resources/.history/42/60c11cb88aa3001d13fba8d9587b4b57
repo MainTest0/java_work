@@ -1,0 +1,78 @@
+package ch06;
+
+import java.util.Scanner;
+
+/*
+ * 함수를 선언하는 코드 방법
+ * 함수를 사용하는 코드 방법
+ */
+
+import ch05.MainTest1;
+
+public class FunctionMainTest {
+
+	// 함수를 설계하는 코드 작성
+	// 정수를 반환하는 함수
+	static int addNumber(int n1, int n2) { // 시그니쳐
+		
+		
+		// 함수 구현부 (body)
+
+		int result; // 지역변수
+		result = n1 + n2;
+
+		return result;		
+		// return 키워드를 만나면 실행의 제어권을 반납한다.
+	}	// 텅빈, 리턴값이 없다
+	
+	// 아무 값도 반환하지 않는 함수 = void
+	static void sayHello(String name) {
+		System.out.println(name +" 반갑습니다 ~");
+	}
+	
+	// 매개 변수가 없는 변수를 설계
+	static int calcSum() {
+		int sum = 0;
+		int i;
+	
+		for(i=1; i<=100; i++) {
+			sum+=i;
+		}
+		return sum;
+	}
+	
+	// calcSum2 정수값 3개를 받아서 덧셈 연산 후 결과를 반환 하시오
+	// return 타입은 double로 하시오
+	
+	
+	static double calcSum2(int num1, int num2, int num3) {
+		
+		double result= num1 + num2 + num3;
+		
+		return result;
+	}
+	
+	// 메인함수 코드의 시작점
+	public static void main(String[] args) {
+		// 함수 호출하기
+		// 함수를 사용하는 코드
+		
+		int myNumber = addNumber(5, 10);
+		
+		System.out.println("myNumber : "+ myNumber);
+		
+		// int a = String  sayHello();
+		
+		// 함수 호출 2
+		
+		sayHello("에쉬");
+		sayHello("티모");
+		sayHello("바론");
+		
+		int calcResult = calcSum();
+		System.out.println(calcResult);
+		
+		int calcResult2 = calcSum2(1, 2, 3);
+		System.out.println(calcResult2);
+	}// end of main
+} // end of class

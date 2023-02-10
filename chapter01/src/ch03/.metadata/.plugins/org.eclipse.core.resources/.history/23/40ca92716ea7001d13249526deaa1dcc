@@ -1,0 +1,18 @@
+package ch09;
+
+public class Book {
+	private int totalPage;
+	private String title;
+	private String autor;
+
+	public Book(String title, String autor) {
+		this.title = title;
+		this.autor = autor;
+
+	}
+
+	public Book(int toalPage, String title, String autor) {
+
+	}
+
+}

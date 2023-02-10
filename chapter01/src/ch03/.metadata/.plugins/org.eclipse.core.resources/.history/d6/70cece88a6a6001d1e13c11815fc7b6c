@@ -1,0 +1,15 @@
+package Starcraft;
+
+public class Marine {
+	private String name;
+	private int hp;
+	private int power;
+	
+	
+
+	// 자기 자신이 공격을 당합니다.
+		public void beAttacked(int power) {
+			System.out.println(this.name + "이 공격을 당합니다.");
+			this.hp -= power;
+		}
+}

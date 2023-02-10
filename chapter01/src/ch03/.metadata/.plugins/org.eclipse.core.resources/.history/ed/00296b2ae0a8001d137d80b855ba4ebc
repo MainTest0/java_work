@@ -1,0 +1,7 @@
+package ch13;
+
+public abstract class Human extends Animal{
+	
+	
+
+}// end of class

@@ -1,0 +1,11 @@
+package ch05;
+
+public class UserClass2 {
+
+	String name2;
+	String live2;
+	double height2;
+	double weight2;
+	int age2;
+	
+}

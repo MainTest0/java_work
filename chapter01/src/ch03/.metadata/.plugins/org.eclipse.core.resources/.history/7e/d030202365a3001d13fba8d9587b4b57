@@ -1,0 +1,18 @@
+package ch01;
+
+public class ContinueMainTest2 {
+
+	public static void main(String[] args) {
+
+		// 스캐너를 사용해서 사용자의 정수값을 입력받아서
+		// 배수의 갯수를 출력하는 프로그램을 만들어보세요
+		// 테스트 값은 1000 (3을 입력하면 1부터 1000 사이의 3 갯수)
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int test = 1000;
+		int user;
+
+	}
+
+}

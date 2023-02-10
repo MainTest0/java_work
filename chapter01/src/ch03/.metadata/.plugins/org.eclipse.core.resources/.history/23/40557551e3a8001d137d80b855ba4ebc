@@ -1,0 +1,16 @@
+package Ex10;
+
+public class ComputerTest {
+
+	public static void main(String[] args) {
+
+		Computer com = new DeskTop();
+		
+		com.turnOn();
+		com.turnOff();
+		com.typing();
+		
+
+	}
+
+}

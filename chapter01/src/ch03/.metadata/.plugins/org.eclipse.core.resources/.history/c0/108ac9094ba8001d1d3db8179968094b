@@ -1,0 +1,27 @@
+package Ex10;
+
+import java.util.Random;
+
+public class PickMachine {
+
+//	뽑기머신 클래스 만들어서
+//
+//	기계안에는 다양한 형태의 객체들이 있다.
+//
+//	뽑기머신 안에 곰인형, 자동차 요런 것들을 넣어서
+//
+//	뽑아 내는 코드를 짜보세요
+//
+//	현금을 뽑게되면 축하합니다 메세지 나올 수 있게 설계
+//
+//	랜덤 함수 이용해서 재밌게 만들기
+
+	Random rand = new Random();
+	int i = rand.nextInt(30);
+
+	while(true)
+	{
+
+	}
+
+}

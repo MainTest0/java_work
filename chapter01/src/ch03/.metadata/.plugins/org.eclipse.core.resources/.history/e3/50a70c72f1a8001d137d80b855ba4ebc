@@ -1,0 +1,19 @@
+package Ex13;
+
+import java.util.Random;
+
+public class Random {
+
+	Random rand = new Random();
+	int ranNum;
+	
+	public Random() {
+		this.ranNum = ranNum;
+	}
+	
+	public int rand() {
+		ranNum = rand.nextInt(17);
+		return ranNum;
+	}
+	
+}

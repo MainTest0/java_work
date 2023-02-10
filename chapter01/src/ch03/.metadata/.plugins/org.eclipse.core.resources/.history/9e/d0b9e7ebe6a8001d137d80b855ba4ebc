@@ -1,0 +1,8 @@
+package Ex12;
+
+public class Snippet {
+	display() 와 typing()은 추상 메서드
+	
+	NoteBook은 추상 클래스
+}
+

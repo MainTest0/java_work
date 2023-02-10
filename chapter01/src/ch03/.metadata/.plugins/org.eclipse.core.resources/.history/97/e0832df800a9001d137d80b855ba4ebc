@@ -1,0 +1,13 @@
+package Strings;
+
+public class StringTest1 {
+	public static void main(String[] args) {
+		// 문자열이라는 데이터를 사용할 때
+		String str1 = "반가워";								// 1번 방식
+		String str2 = new String("반가워");		// 2번 방식
+		
+		// 값을 출력해보자
+		System.out.println("str1 : "+str1);
+		System.out.println("str2 : "+str2);
+	}
+}

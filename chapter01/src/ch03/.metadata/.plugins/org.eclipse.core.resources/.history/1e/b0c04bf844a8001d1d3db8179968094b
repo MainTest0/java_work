@@ -1,0 +1,11 @@
+package ch12;
+
+public class Peach extends Friut{
+
+	
+	public Peach() {
+		name = "복숭아";
+		price = 8000;
+	}
+	
+}

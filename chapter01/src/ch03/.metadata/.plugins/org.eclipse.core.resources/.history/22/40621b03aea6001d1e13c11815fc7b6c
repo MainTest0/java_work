@@ -1,0 +1,12 @@
+package Starcraft;
+public class MainTest2 {
+	//메인함수
+	public static void main(String[] args) {
+
+		final int ZEALOT = 1;
+		final int MARINE = 2;
+		final int ZERGLING = 3;
+		
+	} // end of main
+
+} // end of class

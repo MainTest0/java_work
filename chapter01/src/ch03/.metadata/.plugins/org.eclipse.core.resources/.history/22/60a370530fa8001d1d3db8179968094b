@@ -1,0 +1,18 @@
+package ch09;
+
+/*
+ * 	이치승
+ * 	북 객체를 관리하는 프로그램
+ * 	C R U D  ->  구글링 정의, 확인하기
+ */
+
+public class MyBookStore {
+
+	public static void main(String[] args) {
+
+		// 준비물
+		Scanner sc = new Scanner(System.in);
+
+	} //end of main
+
+} // end of class

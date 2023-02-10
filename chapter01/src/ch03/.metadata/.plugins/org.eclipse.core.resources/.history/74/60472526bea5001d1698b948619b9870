@@ -1,0 +1,18 @@
+package ch01;
+
+import java.util.Scanner;
+
+public class MainTest3 {
+
+	public static void main(String[] args) {
+
+		Scanner scanner;
+		Student studentKim = new Student();
+		System.out.println(studentKim); 	// 주소값이 출력된다.
+		Student studentLee = new Student();
+		System.out.println(studentLee); 	// 주소값이 출력된다.
+		System.out.println(scanner);
+
+	}// end of main
+
+}// end of class

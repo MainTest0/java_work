@@ -1,0 +1,36 @@
+package Strings;
+
+public class StringTest1 {
+	public static void main(String[] args) {
+		// 문자열이라는 데이터를 사용할 때
+
+		String str1 = "반가워"; // 1번 방식 - 상수 풀 영역에 올라간다.
+		String str2 = new String("반가워"); 	// 2번 방식 - heap에 메모리가 올라간다.
+		String str3 = new String("반가워");	// str2와 str3는 주소값이 같을까요?
+		
+		
+		// 값을 출력해보자
+		System.out.println("str1 : " + str1);
+		System.out.println("str2 : " + str2);
+
+		// 1번 방식과 2번 방식은 메모리를 위치시키는 곳이 다르다.
+		// == 연산은 값을 비교하는 연산자(기본 데이터 타입) , 클래스 타입은 주소값을 비교 한다.
+
+		// 검증하기
+		if (str1 == str2) { // str1이랑 str2의 주소값이 같니?
+			System.out.println("주소값이 같아요");
+		} else {
+			System.out.println("주소값이 달라요");
+		}
+
+		// 검증하기
+		if (str2 == str3) { // str2이랑 str3의 주소값이 같니?
+			System.out.println("주소값이 같아요");
+		} else {
+			System.out.println("주소값이 달라요");
+		}
+		
+		
+		
+	}// end of main
+}// end of class
